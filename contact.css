@@ -1,0 +1,266 @@
+@font-face {
+    font-family: Neue;
+    src: url(./fonts/NeueMontreal-Regular.woff2);
+}
+@font-face {
+    font-family: Bella;
+    src: url(./fonts/BellavoirSerif_PERSONAL_USE_ONLY.otf);
+}
+
+@font-face {
+    font-family: Arial;
+    src: url(./fonts/arial_narrow_7.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+}
+
+body{
+    background-color: #e9e1d4;
+    font-family: Neue;
+    color: #4E5873;
+}
+
+#main{
+    height: 100vh;
+    width: 100vw;
+}
+
+.nav{
+    position: absolute;
+    height: 10vh;
+    width: 100%;
+    padding: 0 2vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1vw;
+    color: #4E5873;
+}
+
+.logo{
+    height: 35px;
+    width: 35px;
+}
+
+.logo img{
+    height: 100;
+    width: 100%;
+    background-size: cover;
+}
+
+.nav-center{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 1vw;
+}
+
+.nav-center a{
+    text-decoration: none;
+    color: #ffff;
+}
+
+.nav-right {
+    padding: 0.5vw 1.5vw;
+    color: #fff;
+    background-color: #4E5873;
+    border-radius: 100px;
+    z-index: 99;
+}
+
+.nav-right:hover{
+    color: #4e5873;
+}
+
+.nav-right a{
+    text-decoration: none;
+     color: #fff;
+}
+
+.lets-connect{
+    display: flex;
+    height: 50vh;
+    width: 100vw;
+    padding: 10vh 2vw;
+}
+
+.connect-container{
+    height: 50vh;
+    width: 40vw;
+}
+
+.connect-container h1{
+    font-size: 4vw;
+    letter-spacing: -0.5px;
+}
+
+.connect-container p{
+    font-size: 1.2vw;
+    margin-top: 2vw;
+}
+
+.connect-details{
+    height: 40vh;
+    width: 60vw;
+}
+
+.connect-details h2{
+    font-size: 1.2vw;
+    color: #4e587374;
+}
+
+.connect-details h3{
+    font-size: 1.2vw;
+}
+
+.info{
+    width: 60vw;
+    display: flex;
+    gap: 15vw;
+    align-items: center;
+    height: 25vh;
+}
+
+.general-inquries{
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.careers{
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.address{
+    width: 60vw;
+    display: flex;
+    gap: 15vw;
+    height: 15vh;
+}
+
+
+.lets-connect-bottom{
+    display: flex;
+    padding: 0 2vw;
+    height: 50vh;
+    position: relative;
+}
+
+.social-links{
+    display: flex;
+    gap: 2vw;
+    justify-content: start;
+    align-items: end;
+    height: 100%;
+    width: 36vw;
+    padding: 2vw;
+}
+
+.banner{
+    height: 100%;
+    width: 60vw;
+    padding-bottom: 2vw;
+}
+
+.banner img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 768px){
+   .nav-right{
+    padding: 1vw 3vw;
+    font-size: 3vw;
+   }
+
+   .lets-connect{
+    display: flex;
+    height: 50vh;
+    width: 100vw;
+    padding: 10vh 2vw 0 2vw;
+}
+
+.connect-container{
+    height: 30vh;
+    width: 50%;
+}
+
+.connect-container h1{
+    font-size: 7vw;
+}
+
+.connect-container p{
+    font-size: 2.5vw;
+}
+
+.connect-details{
+    height: 30vh;
+    width: 50%;
+}
+
+.connect-details h2{
+    font-size: 2.5vw;
+}
+
+.connect-details h3{
+    font-size: 2.5vw;
+}
+
+.info{
+    flex-direction: column;
+    width: 100%;
+    gap: 0vw;
+    align-items: start;
+    height: 15vh;
+}
+
+.address{
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    gap: 0vw;
+    height: 15vh;
+}
+
+.lets-connect-bottom{
+    width: 100vw;
+    flex-direction: column;
+    padding: 0 2vw;
+    height: 50vh;
+}
+
+.banner{
+    height: 40%;
+    width: 100%;
+    padding-bottom: 2vw;
+}
+.social-links h3{
+    font-size: 3vw;
+}
+.social-links{
+    display: flex;
+    gap: 2vw;
+    justify-content: start;
+    align-items: start;
+    height: 5vh;
+    width: 100%;
+    padding: 2vw;
+}
+
+   
+}
