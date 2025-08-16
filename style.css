@@ -851,5 +851,15 @@ button{
     font-size: 4.5vw;
 }
 
+.anime-girl h1{
+    font-size: 6vw;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 5vh;
+    font-weight: 900;
+    color:#4E5873;
+
+}
 
 }
