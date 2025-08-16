@@ -79,12 +79,12 @@ body{
 }
 
 .logo{
-    height: 30px;
-    width: 30px;
+    height: 35px;
+    width: 35px;
 }
 
 .logo img{
-    height: 1005;
+    height: 100;
     width: 100%;
     background-size: cover;
 }
@@ -615,16 +615,18 @@ button:hover{
    display: none;
 }
 
-.nav-right {
-    display: none;
+.nav-right a{
+    /* display: none; */
+    font-size: 2.8vw;
+    background-color: #FFFFFF;
 }
 
-.menu{
+/* .menu{
     display: inline;
     background-color: transparent;
     border:1px solid rgb(234, 234, 234);
     padding: 2;
-}
+} */
 
 .landingPage{
     height: 50vh;
@@ -860,6 +862,10 @@ button{
     font-weight: 900;
     color:#4E5873;
 
+}
+
+#cursor{
+    display: none;
 }
 
 }
