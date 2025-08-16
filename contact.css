@@ -91,7 +91,7 @@ body{
 .lets-connect{
     display: flex;
     height: 50vh;
-    width: 100vw;
+    width: 100%;
     padding: 10vh 2vw;
 }
 
@@ -159,6 +159,7 @@ body{
     padding: 0 2vw;
     height: 50vh;
     position: relative;
+    width: 100%;
 }
 
 .social-links{
@@ -169,6 +170,11 @@ body{
     height: 100%;
     width: 36vw;
     padding: 2vw;
+}
+
+.social-links a{
+    text-decoration: none;
+    color: #4e5873;
 }
 
 .banner{
